@@ -1,4 +1,4 @@
-/* openaiService.ts */
+/* src/services/openaiService.ts */
 
 import axios from 'axios';
 

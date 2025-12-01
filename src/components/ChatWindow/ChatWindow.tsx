@@ -1,6 +1,6 @@
-// ChatWindow.tsx
+// src/components/ChatWindow/ChatWindow.tsx
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MessageList from '../MessageList/MessageList';
 import MessageInput from '../MessageInput/MessageInput';
 import FooterMessage from '../FooterMessage/FooterMessage';
@@ -11,6 +11,12 @@ import { generateCompletion } from '../../services/openaiService';
 const ChatWindow: React.FC = () => {
   const [messages, setMessages] = useState<{ id: number; text: string; isUser: boolean }[]>([]);
   const [isAnimating, setIsAnimating] = useState(false);
+
+  useEffect(() => {
+    console.log("API KEY:", import.meta.env.VITE_OPENAI_API_KEY);
+    console.log("API URL:", import.meta.env.VITE_OPENAI_API_URL);
+    console.log("MODEL:", import.meta.env.VITE_OPENAI_MODEL);
+  }, []);
 
   const handleSendMessage = (newMessage: string, isUser: boolean) => {
     const newId = messages.length + 1;

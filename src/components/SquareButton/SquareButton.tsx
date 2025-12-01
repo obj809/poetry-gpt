@@ -1,4 +1,4 @@
-// SquareButton.tsx
+// src/components/SquareButton/SquareButton.tsx
 
 import React from 'react';
 import './SquareButton.scss';

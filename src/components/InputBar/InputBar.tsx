@@ -1,4 +1,4 @@
-// InputBar.tsx
+// src/components/InputBar/InputBar.tsx
 
 import React from 'react';
 import './InputBar.scss';

@@ -1,4 +1,4 @@
-// ChatHeader.tsx
+// src/components/ChatHeader/ChatHeader.tsx
 
 import React from 'react';
 import './ChatHeader.scss';

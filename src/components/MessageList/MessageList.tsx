@@ -1,4 +1,4 @@
-// MessageList.tsx
+// src/components/MessageList/MessageList.tsx
 
 import React, { useEffect, useRef } from 'react';
 import Message from '../Message/Message';

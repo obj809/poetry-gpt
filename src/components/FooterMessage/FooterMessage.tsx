@@ -1,4 +1,4 @@
-// FooterMessage.tsx
+// src/components/FooterMessage/FooterMessage.tsx
 
 import React from 'react';
 import './FooterMessage.scss';

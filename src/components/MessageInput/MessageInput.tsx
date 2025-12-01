@@ -1,4 +1,4 @@
-// MessageInput.tsx
+// src/components/MessageInput/MessageInput.tsx
 
 import React, { useState } from 'react';
 import InputBar from '../InputBar/InputBar';

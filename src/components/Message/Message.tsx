@@ -1,4 +1,4 @@
-/* Message.tsx */
+// src/components/Message/Message.tsx
 
 import React from 'react';
 import './Message.scss';
