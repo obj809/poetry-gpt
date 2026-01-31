@@ -6,7 +6,7 @@ An interactive chatbot that provides poetic responses using a finely-tuned ChatG
 
 
 ## Deployment Link
-This chatbot is live, click [here](https://poetry-gpt.netlify.app/) to visit the site.
+[https://poetry-gpt.netlify.app/](https://poetry-gpt.netlify.app/)
 
 ## Partner Project
 
